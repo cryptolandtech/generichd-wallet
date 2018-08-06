@@ -1,6 +1,6 @@
 {
   "name": "generichd-wallet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Typescript - Generic HD Wallet, inspired by ethereumjs-wallet with sigutil replacement",
   "main": "lib/index.js",
   "files": [
