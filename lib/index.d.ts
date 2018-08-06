@@ -43,3 +43,5 @@ declare class Utils {
     static bufferToHex: (buf: Buffer) => string;
 }
 
+export module HDKey {}
+export module Wallet {}
