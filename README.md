@@ -2,6 +2,12 @@
 
 Typescript - Generic HD Wallet, inspired by ethereumjs-wallet with sigutil replacement
 
+## Usage
+
+`import * as GenericWallet from "generichd-wallet";
+const HDKey = GenericWallet.HDKey;
+const Wallet = GenericWallet.Wallet;`
+
 ## Wallet API
 
 Constructors:
@@ -26,7 +32,9 @@ All of the above instance methods return a Buffer. Use the `String` suffixed ver
 
 To use BIP32 HD wallets, first include the `hdkey` submodule:
 
-`var hdkey = require('generichd-wallet/hdkey')`
+`import * as GenericWallet from "generichd-wallet";
+const HDKey = GenericWallet.HDKey;`
+
 
 Constructors:
 
