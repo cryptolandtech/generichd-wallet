@@ -1,6 +1,5 @@
 import { assert } from "chai";
 import mocha from "mocha";
-import { Buffer } from "safe-buffer";
 import HDWrapper from "../src/hdkey";
 
 // from BIP39 mnemonic: awake book subject inch gentle blur grant damage process float month clown

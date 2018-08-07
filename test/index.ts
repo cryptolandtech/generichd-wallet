@@ -1,8 +1,6 @@
-const ethUtil = require('ethereumjs-util');
 import { assert } from "chai";
 import mocha from "mocha";
-import { Buffer } from "safe-buffer";
-import Wallet from "../src/index";
+import Wallet from "../src/wallet";
 
 const fixturePrivateKey: string = '3c44987879fa78f7523558179e6c9a52ece396044c6d5137be08d2c54e2af55d';
 const fixturePrivateKeyStr: string = fixturePrivateKey.toUpperCase();

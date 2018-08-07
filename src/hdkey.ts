@@ -1,7 +1,7 @@
 // inspired by https://github.com/ethereumjs/ethereumjs-wallet/blob/master/hdkey.js
 
 const reqhdkey = require("hdkey");
-import Wallet from "./index";
+import Wallet from "./wallet";
 
 class HDKey {
 

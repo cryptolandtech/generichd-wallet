@@ -1,6 +1,5 @@
 import { assert } from "chai";
 import mocha from "mocha";
-import { Buffer } from "safe-buffer";
 import HDWrapper from "../src/hdkey";
 
 const WalletType = "ZIL";

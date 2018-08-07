@@ -32,7 +32,7 @@ declare class Wallet {
     getAddressString(): string;
 }
 
-declare class Utils {
+declare class ZilliqaUtil {
     static normalize(str: string): string;
     static isValidAddress(key: Buffer): boolean;
     static isValidPrivate(key: Buffer): boolean;
@@ -43,5 +43,3 @@ declare class Utils {
     static bufferToHex: (buf: Buffer) => string;
 }
 
-export module HDKey {}
-export module Wallet {}
