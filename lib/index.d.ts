@@ -43,3 +43,8 @@ declare class ZilliqaUtil {
     static bufferToHex: (buf: Buffer) => string;
 }
 
+export {
+    Wallet, 
+    HDKey,
+    ZilliqaUtil
+};
